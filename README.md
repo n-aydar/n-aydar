@@ -1,343 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>Novoaydar</title>
+        <title></title>
         <meta http-equiv="Content-type" content="text/html;charser=UTF-8"/>
-        <style type="text/css">
-        * {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-:focus,
-:active {
-  outline: none;
-}
-a:focus,
-a:active {
-  outline: none;
-}
-
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-
-input::-ms-clear {
-  display: none;
-}
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-ul li {
-  list-style: none;
-}
-img {
-  vertical-align: top;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
-body {
-  width: 100%;
-  margin: 0px;
-  font-family: 'Franklin Gothic Medium';
-  
-}
-
-header {
-  height: 100%;
-}
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-  color: aquamarine;
-  font-size: 15px;
-  text-transform: uppercase;
-  z-index: 5;
-  margin: 29px;
-}
-.img {
-  width: 100%;
-  background: url('https://i.postimg.cc/85mcxRWN/20200829-150010.jpg');
-  background-repeat: no-repeat;
-  opacity: .3;
-  background-size:100% auto;
-  height: 725px;
-  z-index: -1;
-  position: absolute;
-  top: -5px;
-}
-
-a.nav {
-  margin-left:28px;
-  margin-right: 28px;
-}
-
-h1 {
-  margin-left:35%;
-  margin-right: 30%;
-  margin-top: 7%;
-  font-size: 100px;
-  color: rgb(0, 162, 255);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-header, main {
-  display: grid;
-  grid-row: 1fr 1fr 1fr;
-}
-
-
- img {
-  width: 400px;
-  height: 420px;
-  padding: 10px;
- border: solid 1px rgb(221, 223, 224);
-}
-
-h2 {
-  font-size: 35px;
-  color: rgb(0, 162, 255);
-  margin: 5%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ul {
-  padding: 1px;
- 
-}
-
-li.place {
-  position: relative;
-  float: left;
-  width: 231px;
-  margin-right: 340px;
-    height: 383px;
-    margin-left: 10%;
-    margin-bottom: 17%;
-    
-}
-
-
-p {
-  margin-top: 20px;
-  width: 400px;
-  color: rgba(128, 128, 128, 0.774);
-  text-align: justify;
-}
-
-li.flora {
-  list-style-type: none;
-  margin-left: 5px;
-  text-align: center;
-  
-}
-
-ul.flora {
-  margin-bottom: 15%;
-  font-size: larger;
-}
-
-div.flora {
-  margin-bottom: 5%;
-  background-color:rgb(0, 162, 255);
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-
-p.flora {
-  text-align: center;
-}
-
-h2.flora {
-  color:white;
-  margin-left: 142px;
-}
-
-p.history {
-  width: 100%;
-}
-
-.source {
-  font-style: italic;
-}
-
-hr {
-  margin: 20px 0;
-	padding: 0;
-	height: 0;
-	border: none;
-	border-top: 2px dotted rgb(0, 162, 255);
-  margin-bottom: 35px;
-}
-
-/*gallery*/
-
-* {
-  box-sizing: border-box;
-}
-
-
-.container {
-  position: relative;
-}
-
-
-.mySlides {
-  display: none;
-  margin-left: 320px;
-  
-}
-
-.cursor {
-  cursor: pointer;
-}
-
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.caption-container {
-  text-align: center;
-  background-color: rgb(0, 162, 255);
-  opacity: .7;
-  padding: 2px 16px;
-  color: rgb(253, 250, 250);
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.column {
-  float: left;
-  width: 16.66%;
- 
-}
-
-
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.demo {
-  height: 50%;
-}
-
-.up {
-  position: sticky;
-  width: 60px;
-  height: 30px;
-  margin: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-
-
-        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         
     </head>
     <body>
@@ -354,7 +26,7 @@ img.demo {
             <div class="img"></div>
 
         </header>
-        
+        <main>
 
            <h2 id="plc">Що відвідати</h2>
            <ul>
@@ -466,16 +138,26 @@ img.demo {
       <h2 id="hstr">Історичнна довідка</h2>
       <p class="source"> Інформація з сайту resource.history.org.ua</p>
       <p class="history">
-        Як і більшість степових поселень, Новоайдар залюднювався не раз і мав великі перерви в історичному існуванні (перші поселення на цьому місці археологи пов'язують із салтівсько-маяцькою культурою серед. 8 – поч. 10 ст., часів хозар. домінування в регіоні; назва Айдар може бути пов'язана з іменем болгарського хана). Проте перше відоме укріплення на правому боці р. Айдар збудоване вже під егідою Всевеликого Війська Донського близько 1687 (вірогідно, у зв'язку з напругою на кордоні під час Кримських походів 1687 і 1689), хоча українські та донські козаки-промисловики відвідували ці місця й раніше (згадки Айдарської станиці, де отаманом був Яким Кузовченко, є з-перед 1686; офіціційною датою заснування Новоайдара визнають 1685), а поруч із сусіднім Старим Айдаром існував давній "перелаз" через річку. У переписному листі козацький містечок за 1707 вказано: "тому 20 років збудовано Новоайдарський городок і в ньому 70 мешканців". Мешканців Новоайдару звали "новодонцями", і серед них значну частку складали особи, яких царський уряд трактував як утікачів (а ще й розкольників-старообрядців), котрих треба повернути до старих осель. Відтак новоайдарці активно підтримали Булавінське повстання 1707–1709. Царські карателі знищили містечко, а землі по р. Айдар у винагороду за участь у придушенні повстання передали Острогозькому полку слобідських козаків.</p>
+        Як і більшість степових поселень, Новоайдар залюднювався не раз і мав великі перерви в історичному існуванні (перші поселення на цьому місці археологи
+         пов'язують із салтівсько-маяцькою культурою серед. 8 – поч. 10 ст., часів хозар. домінування в регіоні; назва Айдар може бути пов'язана з іменем болгарського
+          хана). Проте перше відоме укріплення на правому боці р. Айдар збудоване вже під егідою Всевеликого Війська Донського близько 1687 (вірогідно, у зв'язку з 
+          напругою на кордоні під час Кримських походів 1687 і 1689), хоча українські та донські козаки-промисловики відвідували ці місця й раніше (згадки Айдарської 
+          станиці, де отаманом був Яким Кузовченко, є з-перед 1686; офіціційною датою заснування Новоайдара визнають 1685), а поруч із сусіднім Старим Айдаром існував 
+          давній "перелаз" через річку. У переписному листі козацький містечок за 1707 вказано: "тому 20 років збудовано Новоайдарський городок і в ньому 70 мешканців".
+           Мешканців Новоайдару звали "новодонцями", і серед них значну частку складали особи, яких царський уряд трактував як утікачів (а ще й розкольників-старообрядців), 
+           котрих треба повернути до старих осель. Відтак новоайдарці активно підтримали Булавінське повстання 1707–1709. Царські карателі знищили містечко, а землі по 
+           р. Айдар у винагороду за участь у придушенні повстання передали Острогозькому полку слобідських козаків.</p>
 
 <p class="history">1719 Старий і Новий Айдари зараховують до міст Бахмутської провінції Азовської губернії і укріплюють за наказом царського уряду. 
   Згодом Новоайдар підпорядковувався Старобільському повіті Харківської губернії. До 1800 населення Новоайдар мало статус козаків (з переведенням його на становище однодвірців близько 400 козаків-чоловіків, 
   аби не позбутися свого статусу, переселилися на Кубань). Перед 1862 в містечку налічувалося 2 церкви та 500 дворів, в яких мешкало 3886 жителів, щорічно відбувалося 3 ярмарки.</p>
 <p class="history">Під час революційних подій 1917–20 основними опонентами в регіоні були більшовики та білогвардійці з Дону. З 1923 Н. стає райцентром (ліквідований 
   1962 та знову відновлений 1965). Від 12 липня 1942 по 21 січня 1943 окупований гітлерівською Німеччиною. Статус селеща міського типу одержав 1957.</p>
-     
+    
     </div>
   </div>
+
+  </main>
         
 
     <script>
