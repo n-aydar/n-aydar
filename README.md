@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title></title>
+        <title>Novoaydar</title>
         <meta http-equiv="Content-type" content="text/html;charser=UTF-8"/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <style type="text/css">
         * {
   padding: 0;
